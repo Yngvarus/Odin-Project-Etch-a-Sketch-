@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{    
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.square.hovered {
+    background-color: yellow;
+}
