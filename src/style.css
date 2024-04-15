@@ -4,13 +4,31 @@
     box-sizing: border-box;
 }
 
+#parent-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #container{
-    height: 960px;
-    width: 960px;
+    height: 480px;
+    width: 480px;
     display: flex;
     flex-wrap: wrap;
 }
-.
+
+#grid-choice{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 0.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
 
 .square{    
     width: calc(100% / 16);
